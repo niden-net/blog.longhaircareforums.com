@@ -5,42 +5,36 @@
 
     <title>{{ site.data.settings.title }}</title>
 
-    <meta name="description"
-          content="{{ site.data.settings.description }}"/>
-    <meta property="og:description"
-          content="{{ site.data.settings.description }}"/>
-    <meta property="twitter:description"
-          content="{{ site.data.settings.description }}"/>
-    <meta property="og:site_name"
-          content="{{ site.data.settings.title }}"/>
-    <meta property="og:type"
-          content="website"/>
-    <meta property="og:title"
-          content="{{ site.data.settings.title }}"/>
-    <meta property="twitter:title"
-          content="{{ site.data.settings.title }}"/>
-    <meta property="og:url"
-          content="{{ site.data.settings.url | default: '/' }}"/>
-    <meta name="theme-color"
-          content="#253342"/>
+    <meta name="apple-mobile-web-app-title" content="{{ site.data.settings.title }}">
+    <meta name="description" content="{{ site.data.settings.description }}"/>
+    <meta property="og:description" content="{{ site.data.settings.description }}"/>
+    <meta property="twitter:description" content="{{ site.data.settings.description }}"/>
+    <meta property="og:site_name" content="{{ site.data.settings.title }}"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="{{ site.data.settings.title }}"/>
+    <meta property="twitter:title" content="{{ site.data.settings.title }}"/>
+    <meta property="og:url" content="{{ site.data.settings.url | default: '/' }}"/>
+    <meta name="theme-color" content="#253342"/>
 
-    <link rel="canonical"
-          href="{{ site.data.settings.url | default: '/' }}"/>
+    <link rel="canonical" href="{{ site.data.settings.url | default: '/' }}"/>
     <link rel="preload"
-          href="/assets/fonts/fa/fa-light-300.woff2?_v=5.12.1"
+          href="/assets/fonts/fa/fa-light-300.woff2?_v=5.14.0"
           as="font"
           type="font/woff2"
           crossorigin="anonymous"/>
     <link rel="preload"
-          href="/assets/fonts/fa/fa-solid-900.woff2?_v=5.12.1"
+          href="/assets/fonts/fa/fa-solid-900.woff2?_v=5.14.0"
           as="font"
           type="font/woff2"
           crossorigin="anonymous"/>
     <link rel="preload"
-          href="/assets/fonts/fa/fa-brands-400.woff2?_v=5.12.1"
+          href="/assets/fonts/fa/fa-brands-400.woff2?_v=5.14.0"
           as="font"
           type="font/woff2"
           crossorigin="anonymous"/>
 
-    <link rel="stylesheet" href="/assets/css/lhcf.css"/>
-    <link rel="stylesheet" href="/assets/css/lhcf-extra.css"/>
+    <link rel="stylesheet" href="/assets/css/normalize.css" />
+    <link rel="stylesheet" href="/assets/css/node_list.css" />
+    <link rel="stylesheet" href="/assets/css/attachments.css" />
+    <script src="/assets/js/xf/preamble.min.js?_v=52dbac8c"></script>
+

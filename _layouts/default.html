@@ -4,85 +4,43 @@
       data-template="forum_list"
       data-container-key=""
       data-content-key=""
-      data-logged-in="true"
+      data-logged-in="false"
       data-cookie-prefix="xf_"
-      data-csrf="1604349784,dffee57aff7ec53f1848fd85af6e520f"
-      class="has-no-js template-forum_list XenBase layout-classic style-light sidebar-right  has-staffBar  xb-toggle-default xb-sidebar-show"
->
+      data-csrf="1613589788,309102713d686fad5814ced693703971"
+      class="has-no-js template-forum_list XenBase layout-classic style-light sidebar-right   xb-toggle-default xb-sidebar-show">
 <head>
-    {% include meta.html %}
-    {% include analytics.html %}
+{% include meta.html %}
+{% include analytics.html %}
 </head>
-<body data-template="forum_list">
+<body data-template="{% if page.type == 'index' %}forum_list{% else %}thread_view{% endif %}">
 
 <div class="p-pageWrapper" id="top">
     <div class="p-pageWrapper--helper"></div>
-    <div class="xb-page-wrapper">
+    <div class="xb-page-wrapper xb-canvas-menuActive">
         <div class="xb-page-wrapper--helper"></div>
-{% include header.html %}
+        <header class="p-header" id="header">
+            <div class="p-header-inner">
+                <div class="p-header-content">
+                    <div class="p-header-logo p-header-logo--image">
+                        <a href="/">
+                            LHCF - Feature of the Month
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
         <div class="xb-content-wrapper">
-            <div class="navigation-helper">
-            </div>
+            <div class="navigation-helper"></div>
 {% include nav.html %}
-            <div class="p-sectionLinks--wrapper">
-                <div class="p-sectionLinks">
-                    <div class="p-sectionLinks-inner">
-                        <div class="hScroller" data-xf-init="h-scroller">
-                            <div class="hScroller-scroll">
-                                <ul class="p-sectionLinks-list">
-                                    <li>
-                                        <div class="p-navEl ">
-                                            <a href="/"
-                                               class="p-navEl-link "
-                                               data-nav-id="newPosts">
-                                                Feature of the Month
-                                            </a>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="p-sectionLinks-right">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="offCanvasMenu offCanvasMenu--nav js-headerOffCanvasMenu"
-                 data-menu="menu" aria-hidden="true"
-                 data-ocm-builder="navigation">
-                <div class="offCanvasMenu-backdrop"
-                     data-menu-close="true"></div>
-                <div class="offCanvasMenu-content">
-                    <div class="offCanvasMenu-content--inner">
-                        <div class="offCanvasMenu-header">
-                            Menu
-                            <a class="offCanvasMenu-closer"
-                               data-menu-close="true" role="button" tabindex="0"
-                               aria-label="Close"></a>
-                        </div>
-                        <div class="p-offCanvasAccountLink">
-                            <div class="offCanvasMenu-linkHolder">
-                            </div>
-                            <hr class="offCanvasMenu-separator"/>
-                        </div>
-                        <div class="offCanvasMenu-subHeader">Navigation</div>
-                        <div class="js-offCanvasNavTarget"></div>
-                        <div class="offCanvasMenu-linkHolder">
-                            <a class="offCanvasMenu-link" data-menu-close="true"
-                               data-nav-id="closeMenu" role="button"
-                               tabindex="0" aria-label="Close">Close Menu</a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
             <div class="p-body">
                 <div class="p-body-inner">
                     <!--XF:EXTRA_OUTPUT-->
+
                     <div class="p-body-header">
                         <div class="p-title ">
                             <h1 class="p-title-value">
+                                {% if page.title %}{{ page.title }}{% endif %}
                             </h1>
                             <div class="p-title-pageAction">
                             </div>
@@ -90,39 +48,18 @@
                     </div>
 
                     <div class="p-body-main p-body-main--withSidebar ">
+                        <div class="p-body-contentCol"></div>
+                        <div class="p-body-sidebarCol"></div>
                         <div class="p-body-content">
+
+                            <!-- ad -->
+
                             <div class="p-body-pageContent">
 {{ content }}
                             </div>
                         </div>
 
-                        <div class="p-sidebarWrapper">
-                            <div class="p-body-sidebar">
-                                <div class="block">
-                                    <div class="block-container">
-                                        <h3 class="block-minorHeader">
-                                            Advertisements
-                                        </h3>
-                                        <div class="block-body">
-                                            <div class="block-row block-row--minor">
-                                                <h4 class="block-textHeader block-textHeader--scaled">
-                                                    Sub Header
-                                                </h4>
-                                                Block Text
-                                            </div>
-                                        </div>
-
-                                        <div class="block-footer">
-                                            <span class="block-footer-counter">
-                                                Block Footer
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-{% include widgets/tags.html %}
-{% include widgets/sharethis.html %}
-                            </div>
-                        </div>
+{% include sidebar.html %}
                     </div>
                 </div>
             </div>
@@ -130,9 +67,7 @@
 {% include footer.html %}
     </div> <!-- closing p-pageWrapper -->
 </div> <!-- closing xb-pageWrapper -->
-
-<div class="u-bottomFixer js-bottomFixTarget">
-</div>
+<div class="u-bottomFixer js-bottomFixTarget"></div>
 
 <div class="u-scrollButtons js-scrollButtons" data-trigger-type="up">
     <a href="#top" class="button--scroll button" data-xf-click="scroll-to">
@@ -142,6 +77,138 @@
         </span>
     </a>
 </div>
-{% include footer-js.html %}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery/jquery-3.5.1.min.js?_v=52dbac8c"><\/script>')</script>
+<script src="/assets/js/vendor/vendor-compiled.js?_v=52dbac8c"></script>
+<script src="/assets/js/xf/core-compiled.js?_v=52dbac8c"></script>
+<script src="/assets/js/xf/notice.min.js?_v=52dbac8c"></script>
+<script src="/assets/js/xf/lightbox-compiled.js?_v=52dbac8c"></script>
+<script src="/assets/js/xf/attachment_manager-compiled.js?_v=52dbac8c"></script>
+
+
+
+<script>
+    jQuery.extend(true, XF.config, {
+        //
+        userId: 0,
+        enablePush: false,
+        pushAppServerKey: '',
+        url: {
+            fullBase: '{{ site.data.settings.url }}/',
+            basePath: '/',
+            css: '/css.php?css=__SENTINEL__&s=7&l=1&d=1611689810',
+            keepAlive: '/login/keep-alive'
+        },
+        cookie: {
+            path: '/',
+            domain: '',
+            prefix: 'xf_',
+            secure: true
+        },
+        cacheKey: '918272bb7e82dbc5a3bb1f0ed971f15a',
+        csrf: '1613589788,309102713d686fad5814ced693703971',
+        js: {"\/assets\/js\/xf\/notice.min.js?_v=52dbac8c":true},
+        css: {"public:node_list.less":true,"public:notices.less":true,"public:share_controls.less":true,"public:xb.less":true,"public:extra.less":true},
+        time: {
+            now: 1613589788,
+            today: 1613538000,
+            todayDow: 3,
+            tomorrow: 1613624400,
+            yesterday: 1613451600,
+            week: 1613019600
+        },
+        borderSizeFeature: '3px',
+        fontAwesomeWeight: 'l',
+        enableRtnProtect: true,
+        enableFormSubmitSticky: true,
+        uploadMaxFilesize: 8388608,
+        allowedVideoExtensions: ["m4v","mov","mp4","mp4v","mpeg","mpg","ogv","webm"],
+        allowedAudioExtensions: ["mp3","ogg","wav"],
+        shortcodeToEmoji: true,
+        visitorCounts: {
+            conversations_unread: '0',
+            alerts_unviewed: '0',
+            total_unread: '0',
+            title_count: true,
+            icon_indicator: true
+        },
+        jsState: {},
+        publicMetadataLogoUrl: '',
+        publicPushBadgeUrl: '{{ site.data.settings.url }}/assets/images/bell.png'
+    });
+
+    jQuery.extend(XF.phrases, {
+        //
+        date_x_at_time_y: "{date} at {time}",
+        day_x_at_time_y:  "{day} at {time}",
+        yesterday_at_x:   "Yesterday at {time}",
+        x_minutes_ago:    "{minutes} minutes ago",
+        one_minute_ago:   "1 minute ago",
+        a_moment_ago:     "A moment ago",
+        today_at_x:       "Today at {time}",
+        in_a_moment:      "In a moment",
+        in_a_minute:      "In a minute",
+        in_x_minutes:     "In {minutes} minutes",
+        later_today_at_x: "Later today at {time}",
+        tomorrow_at_x:    "Tomorrow at {time}",
+
+        day0: "Sunday",
+        day1: "Monday",
+        day2: "Tuesday",
+        day3: "Wednesday",
+        day4: "Thursday",
+        day5: "Friday",
+        day6: "Saturday",
+
+        dayShort0: "Sun",
+        dayShort1: "Mon",
+        dayShort2: "Tue",
+        dayShort3: "Wed",
+        dayShort4: "Thu",
+        dayShort5: "Fri",
+        dayShort6: "Sat",
+
+        month0: "January",
+        month1: "February",
+        month2: "March",
+        month3: "April",
+        month4: "May",
+        month5: "June",
+        month6: "July",
+        month7: "August",
+        month8: "September",
+        month9: "October",
+        month10: "November",
+        month11: "December",
+
+        active_user_changed_reload_page: "The active user has changed. Reload the page for the latest version.",
+        server_did_not_respond_in_time_try_again: "The server did not respond in time. Please try again.",
+        oops_we_ran_into_some_problems: "Oops! We ran into some problems.",
+        oops_we_ran_into_some_problems_more_details_console: "Oops! We ran into some problems. Please try again later. More error details may be in the browser console.",
+        file_too_large_to_upload: "The file is too large to be uploaded.",
+        uploaded_file_is_too_large_for_server_to_process: "The uploaded file is too large for the server to process.",
+        files_being_uploaded_are_you_sure: "Files are still being uploaded. Are you sure you want to submit this form?",
+        attach: "Attach files",
+        rich_text_box: "Rich text box",
+        close: "Close",
+        link_copied_to_clipboard: "Link copied to clipboard.",
+        text_copied_to_clipboard: "Text copied to clipboard.",
+        loading: "Loading…",
+
+        processing: "Processing",
+        'processing...': "Processing…",
+
+        showing_x_of_y_items: "Showing {count} of {total} items",
+        showing_all_items: "Showing all items",
+        no_items_to_display: "No items to display",
+
+        number_button_up: "Increase",
+        number_button_down: "Decrease",
+
+        push_enable_notification_title: "Push notifications enabled successfully at Long Hair Care Forum",
+        push_enable_notification_body: "Thank you for enabling push notifications!"
+    });
+</script>
 </body>
 </html>
