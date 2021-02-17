@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Congratulations to 2002 December Feature of the Month - ArmyQT
+tags:
+  - brastrap
 date: 2021-02-17 11:32:59
 image1: /assets/files/armyqt2.jpg
 image2: /assets/files/armyqt3.jpg
