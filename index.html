@@ -1,6 +1,7 @@
 ---
 layout: default
 type: index
+title:
 pagination:
   enabled: true
 ---
@@ -30,13 +31,14 @@ pagination:
                 <li>
                   <time class="node-extra-date u-dt"
                         dir="auto"
-                        datetime="2021-01-02T18:59:23+0100"
-                        data-time="1609610363"
-                        data-date-string="Jan 2, 2021"
-                        data-time-string="6:59 PM"
-                        title="Jan 2, 2021 at 6:59 PM">
-                    Jan 2, 2021
+                        datetime="{{ post.date | date: date_to_xmlschema }}"
+                        data-time="{{ post.date | date: '%s' }}"
+                        data-date-string="{{ post.date | date: '%b %d, %Y' }}"
+                        data-time-string="{{ post.date | date: '%I:%m %p' }}"
+                        title="{{ post.date | date: '%b %d, %Y at %I:%m %p' }}">
+                    {{ post.date | date: '%b %d, %Y' }}
                   </time>
+
                 </li>
               </ul>
             </div>

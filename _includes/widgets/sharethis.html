@@ -1,59 +1,59 @@
-                                <div class="block" data-widget-id="15"
-                                     data-widget-key="forum_overview_share_page"
-                                     data-widget-definition="share_page">
-                                    <div class="block-container">
-                                        <h3 class="block-minorHeader">
-                                            Share this page
-                                        </h3>
-                                        <div class="block-body block-row">
-                                            <div class="shareButtons shareButtons--iconic"
-                                                 data-xf-init="share-buttons"
-                                                 data-page-url=""
-                                                 data-page-title=""
-                                                 data-page-desc="">
-                                                <div class="shareButtons-buttons">
-                                                    <a class="shareButtons-button shareButtons-button--brand shareButtons-button--facebook"
-                                                       data-href="https://www.facebook.com/sharer.php?u={url}">
-                                                        <i aria-hidden="true"></i>
-                                                        <span>Facebook</span>
-                                                    </a>
-                                                    <a class="shareButtons-button shareButtons-button--brand shareButtons-button--twitter"
-                                                       data-href="https://twitter.com/intent/tweet?url={url}&amp;text={title}">
-                                                        <i aria-hidden="true"></i>
-                                                        <span>Twitter</span>
-                                                    </a>
-                                                    <a class="shareButtons-button shareButtons-button--brand shareButtons-button--reddit"
-                                                       data-href="https://reddit.com/submit?url={url}&amp;title={title}">
-                                                        <i aria-hidden="true"></i>
-                                                        <span>Reddit</span>
-                                                    </a>
-                                                    <a class="shareButtons-button shareButtons-button--brand shareButtons-button--pinterest"
-                                                       data-href="https://pinterest.com/pin/create/bookmarklet/?url={url}&amp;description={title}&amp;media={image}">
-                                                        <i aria-hidden="true"></i>
-                                                        <span>Pinterest</span>
-                                                    </a>
-                                                    <a class="shareButtons-button shareButtons-button--brand shareButtons-button--tumblr"
-                                                       data-href="https://www.tumblr.com/widgets/share/tool?canonicalUrl={url}&amp;title={title}">
-                                                        <i aria-hidden="true"></i>
-                                                        <span>Tumblr</span>
-                                                    </a>
-                                                    <a class="shareButtons-button shareButtons-button--brand shareButtons-button--whatsApp"
-                                                       data-href="https://api.whatsapp.com/send?text={title}&nbsp;{url}">
-                                                        <i aria-hidden="true"></i>
-                                                        <span>WhatsApp</span>
-                                                    </a>
-                                                    <a class="shareButtons-button shareButtons-button--email"
-                                                       data-href="mailto:?subject={title}&amp;body={url}">
-                                                        <i aria-hidden="true"></i>
-                                                        <span>Email</span>
-                                                    </a>
-                                                    <a class="shareButtons-button shareButtons-button--link is-hidden"
-                                                       data-clipboard="{url}">
-                                                        <i aria-hidden="true"></i>
-                                                        <span>Link</span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+<div class="block" data-widget-id="15"
+     data-widget-key="forum_overview_share_page"
+     data-widget-definition="share_page">
+    <div class="block-container">
+        <h3 class="block-minorHeader">
+            Share this page
+        </h3>
+        <div class="block-body block-row">
+            <div class="shareButtons shareButtons--iconic"
+                 data-xf-init="share-buttons"
+                 data-page-url=""
+                 data-page-title=""
+                 data-page-desc="">
+                {% assign shareUrl = site.data.settings.url | append: page.url }}
+                {% assign shareText = site.data.settings.title | url_encode}}
+                {% if page.title %}
+                {% assign shareText = page.title | append: ' - ' | append: site.data.settings.title | url_encode }}
+                {% endif %}
+                <div class="shareButtons-buttons">
+                    <a class="shareButtons-button shareButtons-button--brand shareButtons-button--facebook"
+                       data-href="https://www.facebook.com/sharer.php?u={{ shareUrl }}">
+                        <i aria-hidden="true"></i>
+                        <span>Facebook</span>
+                    </a>
+                    <a class="shareButtons-button shareButtons-button--brand shareButtons-button--twitter"
+                       data-href="https://twitter.com/intent/tweet?url={{ shareUrl }}&amp;text={{ shareText }}">
+                        <i aria-hidden="true"></i>
+                        <span>Twitter</span>
+                    </a>
+                    <a class="shareButtons-button shareButtons-button--brand shareButtons-button--reddit"
+                       data-href="https://reddit.com/submit?url={{ shareUrl }}&amp;title={{ shareText }}">
+                        <i aria-hidden="true"></i>
+                        <span>Reddit</span>
+                    </a>
+                    <a class="shareButtons-button shareButtons-button--brand shareButtons-button--tumblr"
+                       data-href="https://www.tumblr.com/widgets/share/tool?canonicalUrl={{ shareUrl }}&amp;title={{ shareText }}">
+                        <i aria-hidden="true"></i>
+                        <span>Tumblr</span>
+                    </a>
+                    <a class="shareButtons-button shareButtons-button--brand shareButtons-button--whatsApp"
+                       data-href="https://api.whatsapp.com/send?text={{ page.title }}&nbsp;{{ shareUrl }}">
+                        <i aria-hidden="true"></i>
+                        <span>WhatsApp</span>
+                    </a>
+                    <a class="shareButtons-button shareButtons-button--email"
+                       data-href="mailto:?subject={{ page.title }}&amp;body={{ shareUrl }}">
+                        <i aria-hidden="true"></i>
+                        <span>Email</span>
+                    </a>
+                    <a class="shareButtons-button shareButtons-button--link is-hidden"
+                       data-clipboard="{{ shareUrl }}">
+                        <i aria-hidden="true"></i>
+                        <span>Link</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
