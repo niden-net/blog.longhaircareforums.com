@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html id="XF" lang="en-US" dir="LTR"
+      data-app="public"
+      data-template="forum_list"
+      data-container-key=""
+      data-content-key=""
+      data-logged-in="true"
+      data-cookie-prefix="xf_"
+      data-csrf="1604349784,dffee57aff7ec53f1848fd85af6e520f"
+      class="has-no-js template-forum_list XenBase layout-classic style-light sidebar-right  has-staffBar  xb-toggle-default xb-sidebar-show"
+>
+<head>
+    {% include meta.html %}
+    {% include analytics.html %}
+</head>
+<body data-template="forum_list">
+
+<div class="p-pageWrapper" id="top">
+    <div class="p-pageWrapper--helper"></div>
+    <div class="xb-page-wrapper">
+        <div class="xb-page-wrapper--helper"></div>
+{% include header.html %}
+        <div class="xb-content-wrapper">
+            <div class="navigation-helper">
+            </div>
+{% include nav.html %}
+            <div class="p-sectionLinks--wrapper">
+                <div class="p-sectionLinks">
+                    <div class="p-sectionLinks-inner">
+                        <div class="hScroller" data-xf-init="h-scroller">
+                            <div class="hScroller-scroll">
+                                <ul class="p-sectionLinks-list">
+                                    <li>
+                                        <div class="p-navEl ">
+                                            <a href="/"
+                                               class="p-navEl-link "
+                                               data-nav-id="newPosts">
+                                                Feature of the Month
+                                            </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="p-sectionLinks-right">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="offCanvasMenu offCanvasMenu--nav js-headerOffCanvasMenu"
+                 data-menu="menu" aria-hidden="true"
+                 data-ocm-builder="navigation">
+                <div class="offCanvasMenu-backdrop"
+                     data-menu-close="true"></div>
+                <div class="offCanvasMenu-content">
+                    <div class="offCanvasMenu-content--inner">
+                        <div class="offCanvasMenu-header">
+                            Menu
+                            <a class="offCanvasMenu-closer"
+                               data-menu-close="true" role="button" tabindex="0"
+                               aria-label="Close"></a>
+                        </div>
+                        <div class="p-offCanvasAccountLink">
+                            <div class="offCanvasMenu-linkHolder">
+                            </div>
+                            <hr class="offCanvasMenu-separator"/>
+                        </div>
+                        <div class="offCanvasMenu-subHeader">Navigation</div>
+                        <div class="js-offCanvasNavTarget"></div>
+                        <div class="offCanvasMenu-linkHolder">
+                            <a class="offCanvasMenu-link" data-menu-close="true"
+                               data-nav-id="closeMenu" role="button"
+                               tabindex="0" aria-label="Close">Close Menu</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="p-body">
+                <div class="p-body-inner">
+                    <!--XF:EXTRA_OUTPUT-->
+                    <div class="p-body-header">
+                        <div class="p-title ">
+                            <h1 class="p-title-value">
+                            </h1>
+                            <div class="p-title-pageAction">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-body-main p-body-main--withSidebar ">
+                        <div class="p-body-content">
+                            <div class="p-body-pageContent">
+{{ content }}
+                            </div>
+                        </div>
+
+                        <div class="p-sidebarWrapper">
+                            <div class="p-body-sidebar">
+                                <div class="block">
+                                    <div class="block-container">
+                                        <h3 class="block-minorHeader">
+                                            Advertisements
+                                        </h3>
+                                        <div class="block-body">
+                                            <div class="block-row block-row--minor">
+                                                <h4 class="block-textHeader block-textHeader--scaled">
+                                                    Sub Header
+                                                </h4>
+                                                Block Text
+                                            </div>
+                                        </div>
+
+                                        <div class="block-footer">
+                                            <span class="block-footer-counter">
+                                                Block Footer
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+{% include widgets/tags.html %}
+{% include widgets/sharethis.html %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- closing xb-content-wrapper -->
+{% include footer.html %}
+    </div> <!-- closing p-pageWrapper -->
+</div> <!-- closing xb-pageWrapper -->
+
+<div class="u-bottomFixer js-bottomFixTarget">
+</div>
+
+<div class="u-scrollButtons js-scrollButtons" data-trigger-type="up">
+    <a href="#top" class="button--scroll button" data-xf-click="scroll-to">
+        <span class="button-text">
+            <i class="fa--xf fal fa-arrow-up" aria-hidden="true"></i>
+            <span class="u-srOnly">Top</span>
+        </span>
+    </a>
+</div>
+{% include footer-js.html %}
+</body>
+</html>

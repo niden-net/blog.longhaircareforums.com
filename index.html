@@ -1,0 +1,44 @@
+---
+layout: default
+pagination:
+  enabled: true
+---
+{% for post in site.posts %}
+<div class="block-body block-body--collapsible is-active nodenormal">
+    <div class="node node--id15 node--depth2 node--forum">
+        <div class="node-body">
+            <span class="node-icon" aria-hidden="true"><i></i></span>
+            <div class="node-main js-nodeMain">
+                <h3 class="node-title">
+                    <a href="/"
+                       data-xf-init="element-tooltip"
+                       data-shortcut="node-description">
+                        {{ post.title }}
+                    </a>
+                </h3>
+                <div class="node-description node-description--tooltip js-nodeDescTooltip">
+                    {% for tag in post.tags %}{{ tag }} {% endfor %}
+                </div>
+            </div>
+            <div class="node-extra">
+                <div class="node-extra-row">
+                    <ul class="listInline listInline--bullet">
+                        <li>
+                            <time class="node-extra-date u-dt"
+                                  dir="auto"
+                                  datetime="2021-01-02T18:59:23+0100"
+                                  data-time="1609610363"
+                                  data-date-string="Jan 2, 2021"
+                                  data-time-string="6:59 PM"
+                                  title="Jan 2, 2021 at 6:59 PM">
+                                Jan 2, 2021
+                            </time>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
