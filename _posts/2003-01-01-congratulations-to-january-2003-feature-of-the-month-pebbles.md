@@ -2,7 +2,7 @@
 layout: post
 title: Congratulations to January 2003 Feature of the Month - Pebbles
 tags:
-  - brastrap
+  - bsl
 date: 2003-01-01 12:00:00
 image1: /assets/files/pebbles1.jpg
 image2: /assets/files/pebbles2.jpg

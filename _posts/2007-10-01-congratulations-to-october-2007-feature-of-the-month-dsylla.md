@@ -4,6 +4,7 @@ title: Congratulations to October 2007 Feature of the Month - Dsylla
 tags:
   - 4a
   - 4b
+  - bsl
 date: 2007-10-01 12:00:00
 image1: /assets/files/dsylla1.jpg
 image2: /assets/files/dsylla2.jpg

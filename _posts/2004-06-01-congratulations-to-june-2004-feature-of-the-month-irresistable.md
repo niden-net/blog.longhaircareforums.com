@@ -14,7 +14,7 @@ I mostly CW (conditioner wash) my hair, usually about every week or two. More of
 
 I have been experimenting with some new conditioners lately and I have found a couple that I like so far (Redken Butter Treat and All Soft Heavy cream) that I think I will continue to use. But for years now, I have stuck with just the CPR, IC and Cholesterol. I only use shampoo on an as needed basis, which is only when I really feel I need it.
 
-When I do shampoo, I use Motions Lavish conditioning Shampoo. I use alot of natural oils and butters, and mix up alot of my own hair dressings and pomades with them. I use Shea Butter and oil, Avocado Butter and oil, Cocoa Butter, Mango butter, Aloe Butter, Virgin Coconut Oil etc. I haven’t touched grease since discovering all of these oils and butters.
+When I do shampoo, I use Motions Lavish conditioning Shampoo. I use alot of natural oils and butters, and mix up alot of my own hair dressings and pomades with them. I use Shea Butter and oil, Avocado Butter and oil, Cocoa Butter, Mango butter, Aloe Butter, Virgin Coconut Oil etc. I haven't touched grease since discovering all of these oils and butters.
 
 I mostly wear my hair in a pony tail or bun (simple, easy, and neat) with it very moisturized with the various oils and butters every day and I use light applications of a watery type leave in, like African Pride or Allways 911 on my edges and ends. I used to soak my hair in the watery leave ins every day, but have since found that it actually makes my hair less manageable to wet it that much every day.
 
@@ -39,7 +39,7 @@ I just recently started taking pantothenic acid 500mg, Silica, and biotin 300mcg
 
 ## Currently, how long is your hair and what is your hair type?
 
-My hair is now a couple, or a few inches past my bra strap. I think I am 3b or C (or at least that’s what others have said)
+My hair is now a couple, or a few inches past my bra strap. I think I am 3b or C (or at least that's what others have said)
 
 ## What are the things that you feel have helped you the most in achieving and maintaining your hair length?
 

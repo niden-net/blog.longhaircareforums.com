@@ -4,6 +4,7 @@ title: Congratulations to October 2006 Feature of the Month - Macherieamour
 tags:
   - 4a
   - 4b
+  - bsl
 date: 2006-10-01 12:00:00
 image1: /assets/files/macherieamour1.jpg
 image2: /assets/files/macherieamour2.jpg

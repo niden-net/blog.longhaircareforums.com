@@ -2,7 +2,7 @@
 layout: post
 title: Congratulations to December 2002 Feature of the Month - ArmyQT
 tags:
-  - brastrap
+  - bsl
 date: 2002-12-01 12:00:00
 image1: /assets/files/armyqt2.jpg
 image2: /assets/files/armyqt3.jpg
@@ -15,8 +15,8 @@ Sometimes I do a pre-shampoo hot oil treatment with olive oil. When I skip this 
 
 * As a general rule, I do proteins t least once a month.
 * My daily hairstyle is a bun.
-* Sometimes on the weekends I will let my hair air dry and use Caruso Steam Rollers to get some curls. Recently I’ve been wearing a drawstring ponytail as a protective style (loving it!).
-* Moisturizers I like include, Olive Oil, WGO, Dudley’s PCA, and Profectiv Mega Growth. I also like Kiehl's crème with Silk Groom and Keracare Silken Seal (but I only use these once in a while when I wear my hair down).
+* Sometimes on the weekends I will let my hair air dry and use Caruso Steam Rollers to get some curls. Recently I've been wearing a drawstring ponytail as a protective style (loving it!).
+* Moisturizers I like include, Olive Oil, WGO, Dudley's PCA, and Profectiv Mega Growth. I also like Kiehl's crème with Silk Groom and Keracare Silken Seal (but I only use these once in a while when I wear my hair down).
 * I generally relax my hair every 8 wks, but am currently trying to stretch it out to 12 weeks. Last relaxer used was Elucence Lye.
 
 ## Currently how long is your hair?
@@ -25,7 +25,7 @@ Currently my hair is about 1 in or so away from brastrap. Hopefully when I relax
 
 ## Do you take any supplements, if so what are they?
 
-Recently (1month) I’ve started taking:
+Recently (1month) I've started taking:
 
 * 1000 mg Pantothenic Acid, 1000 mg
 * Evening Primrose Oil, 1200 mcg Biotin, and

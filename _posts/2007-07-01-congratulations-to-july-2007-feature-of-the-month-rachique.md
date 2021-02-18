@@ -4,6 +4,7 @@ title: Congratulations to July 2007 Feature of the Month - RachiQue
 tags:
   - 3b
   - 4a
+  - bsl
 date: 2007-07-01 12:00:00
 image1: /assets/files/rachique1.jpg
 image2: /assets/files/rachique2.jpg
