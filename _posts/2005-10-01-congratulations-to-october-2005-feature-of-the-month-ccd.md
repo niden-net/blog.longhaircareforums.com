@@ -31,7 +31,7 @@ My hair is past my bra strap, (measuring from hairline to longest end in the bac
 
 ## Do you take any supplements, if so what are they?
 
-I have taken Biotin, Silica, and a multivitamin regularly in this past and I definitely feel this helped stimulate hair growth, I have read if you have enough of these nutrients in your body than the excess goes to hair, skin and nails. For me it worked, I saw results and others saw results. As of lately, I have gotten very lazy and I notice my hair has suffered. I don’t feel the elasticity and the strength in my hair. I have no excuse except that I reached a personal goal and have gotten lazy, so I need to begin my vitamin regime again.
+I have taken Biotin, Silica, and a multivitamin regularly in this past and I definitely feel this helped stimulate hair growth, I have read if you have enough of these nutrients in your body than the excess goes to hair, skin and nails. For me it worked, I saw results and others saw results. As of lately, I have gotten very lazy and I notice my hair has suffered. I don’t feel the elasticity and the strength in my hair. I have no excuse except that I reached a personal goal and have gotten lazy, so I need to begin my vitamin regimen again.
 
 Since joining the LHCF, I used MSM, and I added Flaxseed oil, Evening Primrose Vitamin E and Foti (liquid) into my stash, so I must start taking them again.
 
