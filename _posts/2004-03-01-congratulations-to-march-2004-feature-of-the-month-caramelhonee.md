@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Congratulations to March 2004 Feature of the Month - Caramelhonee
 tags:
   - 2b
