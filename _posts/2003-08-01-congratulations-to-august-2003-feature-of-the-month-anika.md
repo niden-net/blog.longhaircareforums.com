@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2003 August - Anika
+title: Congratulations to August 2003 Feature of the Month - Anika
 tags:
   - 3c
   - 4a

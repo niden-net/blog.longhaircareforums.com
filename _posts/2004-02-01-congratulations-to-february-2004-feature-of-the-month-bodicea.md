@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2004 February - Bodicea
+title: Congratulations to February 2004 Feature of the Month - Bodicea
 tags:
   - 3b
   - 3c

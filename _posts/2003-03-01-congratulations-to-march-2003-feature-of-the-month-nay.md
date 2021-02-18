@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2003 March - Nay
+title: Congratulations to March 2003 Feature of the Month - Nay
 tags:
   - 3b
 date: 2003-03-01 12:00:00

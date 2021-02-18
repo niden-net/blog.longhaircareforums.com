@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2003 January - Pebbles
+title: Congratulations to January 2003 Feature of the Month - Pebbles
 tags:
   - brastrap
 date: 2003-01-01 12:00:00

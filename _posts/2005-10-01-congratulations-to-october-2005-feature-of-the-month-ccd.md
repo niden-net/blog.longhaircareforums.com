@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2005 October - Ccd
+title: Congratulations to October 2005 Feature of the Month - Ccd
 tags:
   - 4a
 date: 2005-10-01 12:00:00

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2006 July - Anky
+title: Congratulations to July 2006 Feature of the Month - Anky
 tags:
   - 3c
   - 4b

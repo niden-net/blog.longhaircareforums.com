@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2004 April - Hairlove
+title: Congratulations to April 2004 Feature of the Month - Hairlove
 tags:
   - 3b
   - 3c

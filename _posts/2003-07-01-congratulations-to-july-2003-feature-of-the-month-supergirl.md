@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2003 July - Supergirl
+title: Congratulations to July 2003 Feature of the Month - Supergirl
 tags:
   - 4a
   - 4b

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2003 June - Sherylove
+title: Congratulations to June 2003 Feature of the Month - Sherylove
 tags:
   - 3c
   - 4a

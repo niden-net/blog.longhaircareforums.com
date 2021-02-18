@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2005 December - SimplyCee
+title: Congratulations to December 2005 Feature of the Month - SimplyCee
 tags:
   - 4a
   - 4b

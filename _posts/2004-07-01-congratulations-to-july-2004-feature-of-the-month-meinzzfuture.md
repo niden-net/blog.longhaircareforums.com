@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2004 July - Meinzzfuture
+title: Congratulations to July 2004 Feature of the Month - Meinzzfuture
 tags:
   - 4a
 date: 2004-07-01 12:00:00

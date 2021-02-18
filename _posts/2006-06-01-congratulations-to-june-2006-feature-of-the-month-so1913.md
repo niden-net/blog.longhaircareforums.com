@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2006 June - So1913
+title: Congratulations to June 2006 Feature of the Month - So1913
 tags:
 date: 2006-06-01 12:00:00
 image1: /assets/files/so19131.jpg

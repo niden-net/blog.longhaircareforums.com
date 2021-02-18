@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2003 February - Sweetcocoa
+title: Congratulations to February 2003 Feature of the Month - Sweetcocoa
 tags:
   - 3c
   - 4a

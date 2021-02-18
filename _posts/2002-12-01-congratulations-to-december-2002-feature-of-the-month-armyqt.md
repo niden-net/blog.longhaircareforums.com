@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2002 December - ArmyQT
+title: Congratulations to December 2002 Feature of the Month - ArmyQT
 tags:
   - brastrap
 date: 2002-12-01 12:00:00
