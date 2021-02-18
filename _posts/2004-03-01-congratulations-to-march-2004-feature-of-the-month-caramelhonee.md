@@ -1,12 +1,11 @@
 ---
-layout: post
 title: Congratulations to March 2004 Feature of the Month - Caramelhonee
 tags:
   - 2b
   - 2c
 date: 2004-03-01 12:00:00
 image1: /assets/files/caramelhonee1.jpg
-image1: /assets/files/caramelhonee2.jpg
+image2: /assets/files/caramelhonee2.jpg
 ---
 ## What is your hair care regimen?
 
