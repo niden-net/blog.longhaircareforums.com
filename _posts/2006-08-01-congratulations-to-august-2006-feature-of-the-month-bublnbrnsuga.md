@@ -2,8 +2,8 @@
 layout: post
 title: Congratulations to August 2006 Feature of the Month - Bublnbrnsuga
 tags:
-  - 3
-  - 4
+  - "3"
+  - "4"
 date: 2006-08-01 12:00:00
 ---
 ## What is your hair care regimen?
