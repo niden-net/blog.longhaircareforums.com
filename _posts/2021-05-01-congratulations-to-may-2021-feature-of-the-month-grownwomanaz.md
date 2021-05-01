@@ -28,8 +28,8 @@ My hair is currently between full BSL and MBL. I believe I am 3c/4a with borderl
 
 ## Do you take any supplements, if so what are they?
 
-I take a liquid multi-vitamin daily along with marine collegen and a probiotic. I also incorporate chlorella and spirulina smoothies into my diet but not on a daily basis. My daily water intake is between 80-100 ounces.
+I take a liquid multi-vitamin daily along with marine collagen and a probiotic. I also incorporate chlorella and spirulina smoothies into my diet but not on a daily basis. My daily water intake is between 80-100 ounces.
 
 ## What are the things that you feel have helped you the most in achieving and maintaining your hair length?
 
-Definitely limited direct heat and finger detangling have helped me. I rarely flat iron my hair. I have been using my RevAir lately to blow out my hair. It actually suck dries the hair with low heat for those who aren't familiar lol. I am scissor happy but I have cut way back on the frequency of my trims. I cut my hair to full SL the end of 2017. The pictures are from 2016 or 2015 I wasn't able to upload new photos.
+Definitely limited direct heat and finger de-tangling have helped me. I rarely flat iron my hair. I have been using my RevAir lately to blow out my hair. It actually suck dries the hair with low heat for those who aren't familiar lol. I am scissor happy but I have cut way back on the frequency of my trims. I cut my hair to full SL the end of 2017. The pictures are from 2016 or 2015 I wasn't able to upload new photos.
