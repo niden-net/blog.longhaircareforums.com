@@ -24,11 +24,11 @@ I like to keep my regimen simple with weekly to every 10 days protein and DC tre
 
 ## Currently how long is your hair?
 
-I take a liquid multi-vitamin daily along with marine collegen and a probiotic. I also incorporate chlorella and spirulina smoothies into my diet but not on a daily basis. My daily water intake is between 80-100 ounces.
+My hair is currently between full BSL and MBL. I believe I am 3c/4a with borderline low to medium density. My individual strands are coarse which gives me the illusion of having more hair than I actually have. My porosity is naturally high
 
 ## Do you take any supplements, if so what are they?
 
-My hair is currently between full BSL and MBL. I believe I am 3c/4a with borderline low to medium density. My individual strands are coarse which gives me the illusion of having more hair than I actually have. My porosity is naturally high
+I take a liquid multi-vitamin daily along with marine collegen and a probiotic. I also incorporate chlorella and spirulina smoothies into my diet but not on a daily basis. My daily water intake is between 80-100 ounces.
 
 ## What are the things that you feel have helped you the most in achieving and maintaining your hair length?
 
